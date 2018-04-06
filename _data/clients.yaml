@@ -1,0 +1,56 @@
+- name: 3VR
+  src: 3vr.png
+
+- name: Adobe
+  src: ad.png
+
+- name: California Public Utilities Commission
+  src: cpuc.png
+
+- name: Delivering Happiness
+  src: dhap.png
+
+- name: Digital Realty
+  src: dr.png
+
+- name: GameStop
+  src: gs.png
+
+- name: GreaterThan Aids
+  src: gta.png
+
+- name: Jewish Partisans Educational Foundation
+  src: jpef.png
+
+- name: MkThink
+  src: mkt.png
+
+- name: Movies on demand on cable
+  src: modoc.png
+
+- name: MuleSoft
+  src: ms.png
+
+- name: Oakland Unified School District
+  src: ousd.png
+
+- name: RogerCPA Review
+  src: rcpar.png
+
+- name: RoundhouseOne
+  src: rh1.png
+
+- name: Scion
+  src: sci.png
+
+- name: SanDisk
+  src: sd.png
+
+- name: Tribeca Film Festival
+  src: tff.png
+
+- name: TXU Energy
+  src: txu.png
+
+- name: UrbanSitter
+  src: us.png

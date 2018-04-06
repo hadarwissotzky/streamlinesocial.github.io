@@ -1,0 +1,39 @@
+<!-- Start  Loading Section -->
+<div class="loading-overlay">
+  <div class="spinner">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<!-- end loading section -->
+
+<!-- start header -->
+<header id="pageHeader" class="header navbar {{ page.headerBackgroundStyle }}">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{% link index.html %}">
+        <img src="{{ 'assets/images/brand-logo-ondark.png' | relative_url }}" alt="Streamline Social" />
+      </a>
+    </div>
+    <nav id="myNavbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{% link about.html %}">ABOUT</a></li>
+        <li><a href="{% link work.html %} ">WORK</a></li>
+        <li><a href="{% link services.html %}">SERVICES</a></li>
+        <li><a href="{% link industries.html %}">INDUSTRIES</a></li>
+        <li><a href="{% link contact.html %}">CONTACT</a></li>
+        <!--<li><a href="#blog">BLOG</a></li>-->
+        <!--<li><a href="#contact">CONTACT</a></li>-->
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- end header -->
