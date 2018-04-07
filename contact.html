@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Contact
-permalink: contact
+permalink: contact/
 headerBackgroundStyle: transparent
 ---
 
 <!-- start div video-container -->
 <div class="video-container" id="video-contact">
-    <video loop muted autoplay poster="#" class="video-background services-image" style="background: url('/assets/images/contact_us.jpg')"></video>
+    <video loop muted autoplay poster="#" class="video-background services-image" style="background: url('{{ 'assets/images/contact_us.jpg' | relative_url }}');"></video>
     <div class="overlay">
         <div class="container">
             <div class="row row-xs-no-padding">
@@ -294,5 +294,5 @@ headerBackgroundStyle: transparent
         integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
 <script src='https://www.google.com/recaptcha/api.js' async defer></script>
-<script src="{{ "assets/js/contact.js" }}"></script>
+<script src="{{ "/assets/js/contact.js" }}"></script>
 
