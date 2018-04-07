@@ -1,5 +1,3 @@
-
-
 var onContactUsSubmit = function () {
     $(document).ready(function () {
 
@@ -18,7 +16,14 @@ var onContactUsSubmit = function () {
                 message: $("#contact-us-form textarea[name='message']").val(),
                 'g-recaptcha-response': $("#contact-us-form textarea[name='g-recaptcha-response']").val()
             }), function (data) {
+
+                // success at contacting
                 $(".thanks").show();
+
+                if (typeof ga !== 'undefined') {
+                    ga('send', 'event', 'cta', 'contactUs', 'strsocialWebsite');
+                }
+
                 $("#contact-us-form button").hide();
                 $("#contact-us-form input[name='name']").val('');
                 $("#contact-us-form input[name='companyName']").val('');
