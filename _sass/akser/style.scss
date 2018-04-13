@@ -1938,6 +1938,7 @@ Start Section founder
 }
 .service-mobile .back {
     @extend %back-text-on-right;
+    background-image: url(/assets/images/services-mobile.jpg);
 
 }
 .service-ux .back {
@@ -1945,7 +1946,7 @@ Start Section founder
 }
 .service-data .back {
     @extend %back-text-on-right;
-
+    background-image: url(/assets/images/5593x.jpg);
 }
 .service-devops .back {
 
