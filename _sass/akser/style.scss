@@ -2307,7 +2307,7 @@ start my-portfolio section
     margin: auto;
     max-width: 1440px;
     min-width: 256px;
-    padding: 24px 0 16px;
+    padding: 24px 0 0px;
     z-index: 1;
 }
 .ds-project__logo {
@@ -3569,7 +3569,7 @@ margin-bottom: 16%;
 }
 .industries-card .card-title:after {
     -webkit-transform: translateX(-50%);
-    background-color: #e3604c;
+    background-color: #1990CE;
     content: "";
     height: 2px;
     left: 50%;
