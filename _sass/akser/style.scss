@@ -147,7 +147,12 @@ strong {
 .sec-padding{
 	padding: 70px 0;
 	background-color: #f8f8f8;
+
+    @media (max-width: $screen-xs-min) {
+        padding: 20px 0;
+    }
 }
+
 
 .sec-padding h2 {
     font-weight: 700;
@@ -354,7 +359,7 @@ Start Section header
     // on small screens, make the nav more visible at the start
     background-color: $header-bg-shrink;
     @media (min-width: $screen-sm-min) {
-        background-color: $header-bg;
+        background-color: transparent;
     }
 }
 
@@ -368,6 +373,11 @@ Start Section header
     @media (min-width: $screen-sm-min) {
         background-color: transparent;
     }
+
+    @media (max-width: $screen-xs-min) {
+        background-color: transparent;
+    }
+
 }
 
 .navbar-header {
