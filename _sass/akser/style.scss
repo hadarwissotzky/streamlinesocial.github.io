@@ -744,6 +744,14 @@ start section video-container for video page
     min-width: 100%;
     z-index: -100;
     object-fit: cover;
+
+    width:305px;
+    height:160px;
+    background:transparent url('assets/images/ss-front-mid.jpg') no-repeat 0 0;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
 }
 
 .video-container .overlay{
