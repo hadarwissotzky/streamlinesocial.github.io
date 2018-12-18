@@ -1,7 +1,12 @@
 $(document).on('ready', function () {
     
     "use strict";
-    
+
+    //lazy load video
+    jQuery(function($) {
+        $("video").lazy();
+    });
+
     var win = $(window);
             
     
