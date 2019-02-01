@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   We are a full-service Agile product management and development company that helps companies build a turnkey
   software product. Share with us your ideas and we will turn them into success.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.streamlinesocial.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.streamlinesocial.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: strsocial
 github_username:  streamlinesocial
 
