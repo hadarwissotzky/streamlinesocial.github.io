@@ -2690,6 +2690,9 @@ end partners Section
 /*----------------------------------------------------
 start contact-me Section
 ----------------------------------------------------*/
+.contact-section {
+  font-size: 17px;
+}
 .contact {
     text-align: center;
 }
@@ -2802,6 +2805,12 @@ start contact-me Section
 .contact-options-row .light-form {
     background-color: transparent;
     padding: 0;
+}
+.contact-address {
+	text-align: left;
+}
+.our-work .item {
+	margin-left: 5%;
 }
 .gform_body {
     margin: 0 -15px;
@@ -3479,6 +3488,9 @@ margin-bottom: 16%;
 .footer-rights {
     float: right;
     margin-top: 4%;
+}
+.social-link {
+  margin-top: 12px;
 }
 /*********** start Industries  ************/
 .industries-content {
