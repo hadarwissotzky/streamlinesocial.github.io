@@ -264,7 +264,7 @@ Start div loading-overlay
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: $primary-orange;
+    background-color: #D3DA65;
     opacity: .5;
     animation: move 1.2s ease-in-out infinite;
 }
@@ -508,7 +508,7 @@ Start Section header
 }
 
 .header.shrink .navbar-nav li.active a {
-     color: $primary-orange;
+     color: #D3DA65;
 }
 
 .header.shrink .navbar-toggle { 
