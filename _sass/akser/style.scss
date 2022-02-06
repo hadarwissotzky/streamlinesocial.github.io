@@ -463,7 +463,7 @@ Start Section header
 .header .navbar-nav li a {
     padding: 30px 15px;
     color: $header-fg;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: $font-weight-nav-links;
 }
 .layout-header-dark .navbar-nav li a {
@@ -475,7 +475,7 @@ Start Section header
 } 
 
 .header .navbar-nav li.active a {
-    color: $primary-orange;
+    color: #D3DA65;
 }
 
 .header .navbar-toggle { 
@@ -755,7 +755,7 @@ start section video-container for video page
 }
 
 .video-container .overlay{
-    background-color: rgba(23, 31, 42, 0.3);
+    background-color: rgba(3, 77, 95, 0.3);
     color: #fff;
     display: flex;
     align-items: center;
@@ -800,7 +800,7 @@ start section video-container for video page
     margin: 0;
     font-size: 20px;
     font-weight: 300;
-    color: #009ee2;
+    color: #D3DA65;
     text-transform: uppercase;
     max-width: 900px;
 

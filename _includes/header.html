@@ -13,6 +13,7 @@
 <!-- start header -->
 <header id="pageHeader" class="header navbar {{ page.headerBackgroundStyle }}">
   <div class="container">
+{{page.url}} {{item}}
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
         <span class="icon-bar"></span>
@@ -25,11 +26,11 @@
     </div>
     <nav id="myNavbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{% link about.html %}">ABOUT</a></li>
-        <li><a href="{% link work.html %} ">WORK</a></li>
-        <li><a href="{% link services.html %}">SERVICES</a></li>
-        <li><a href="{% link industries.html %}">INDUSTRIES</a></li>
-        <li><a href="{% link contact.html %}">CONTACT</a></li>
+        <li class="{% if page.url == "/about/" %} active {% endif%}" ><a href="{% link about.html %}">ABOUT</a></li>
+        <li class="{% if page.url == "/work/" %} active {% endif%}"><a href="{% link work.html %} ">WORK</a></li>
+        <li class="{% if page.url == "/services/" %} active {% endif%}"><a href="{% link services.html %}">SERVICES</a></li>
+        <li class="{% if page.url == "/industries/" %} active {% endif%}"><a href="{% link industries.html %}">INDUSTRIES</a></li>
+        <li class="{% if page.url == "/contact/" %} active {% endif%}"><a href="{% link contact.html %}">CONTACT</a></li>
         <!--<li><a href="#blog">BLOG</a></li>-->
         <!--<li><a href="#contact">CONTACT</a></li>-->
       </ul>
