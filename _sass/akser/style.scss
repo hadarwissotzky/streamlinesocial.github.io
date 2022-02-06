@@ -883,6 +883,15 @@ start section video-container for video page
     }
 }
 
+.video-container .overlay .scroll img {
+  width: 3%;
+}
+
+.video-container .overlay .scroll span
+{
+    font-size: 17px;
+    padding-left: 12px;
+}
 .video-container section {
     text-align: left;
 
