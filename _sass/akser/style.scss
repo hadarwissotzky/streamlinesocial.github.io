@@ -110,6 +110,12 @@ strong {
     font-style: normal;
     display: inline-block;
 }
+.btn-primary {
+      margin-top: 11px;
+  background-color: #D3DA65;
+  border-color: #2e6da4;
+  color: #5a5b5d;
+}
 //.a-btn {
 //    margin-left: auto;
 //    margin-right: auto;
@@ -143,7 +149,13 @@ strong {
 .default-background{background-color: $primary-orange;}
 .default-background-hover:hover{background-color: $primary-orange !important;}
 
-
+.free-est{
+    display: block;
+    width: 28%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .sec-padding{
 	padding: 70px 0;
 	background-color: #f8f8f8;
@@ -837,6 +849,10 @@ start section video-container for video page
         width: 60%;
     }
 }
+
+.video-container strong {
+  font-weight: 700;
+}
  
 .video-container .overlay .title .a-btn{
     font-weight: $font-weight-button;
@@ -884,7 +900,7 @@ start section video-container for video page
 }
 
 .video-container .overlay .scroll img {
-  width: 3%;
+  width: 14%;
 }
 
 .video-container .overlay .scroll span
@@ -1328,6 +1344,13 @@ max-width: 100%;
         padding-bottom: 10px;
     }
 }
+.footer-links {
+      margin-top: 5%;
+}
+.footer-link:hover{
+  color: #D3DA65;
+}
+
 /*----------------------------------------------------
 end about Section
 ----------------------------------------------------*/
@@ -1605,6 +1628,9 @@ font-size: 22px;
 .tech-icons div {
     height: 120px;
     text-align: center;
+}
+.team-section {
+  padding: 0 70px 20px 0 !important;
 }
 /*----------------------------------------------------
 start three-boxs Section
@@ -2891,6 +2917,10 @@ label {
     border-bottom: 2px solid #fff;
     color: #fff;
 }
+.light-form .gfield textarea,
+.light-form .gfield input[type=text]::placeholder {
+  font-size: 19px;
+}
 .ginput_container_select {
     border-bottom: 2px #FFF solid;
     position: relative;
@@ -3488,7 +3518,6 @@ margin-bottom: 16%;
     text-align: left;
 }
 .footer-address {
-    color: #7e7e7e;
     font-size: 12px;
     line-height: 12px;
     margin: 0;
@@ -3498,8 +3527,12 @@ margin-bottom: 16%;
     float: right;
     margin-top: 4%;
 }
+.footer-section-container {
+  color: #ccc;
+}
 .social-link {
-  margin-top: 12px;
+  margin-top: 8%;
+    text-transform: uppercase;
 }
 /*********** start Industries  ************/
 .industries-content {
@@ -3574,6 +3607,7 @@ margin-bottom: 16%;
     padding-bottom: 48px;
     position: relative;
     text-align: center;
+	background-color: #BDCAD0;
 }
 
 .industries-card .card-header,
