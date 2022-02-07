@@ -2009,7 +2009,9 @@ Start Section founder
     @extend %back-text-on-right;
 
 }
-
+.service-qa {
+  padding-bottom: 4%;
+}
 /*----------------------------------------------------
 end Section founder
 ----------------------------------------------------*/
@@ -2363,6 +2365,7 @@ start my-portfolio section
     min-width: 256px;
     padding: 24px 0 0px;
     z-index: 1;
+margin-bottom: 1%;
 }
 .ds-project__logo {
     margin-bottom: 40px;
