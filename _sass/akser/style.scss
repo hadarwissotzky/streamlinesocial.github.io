@@ -2920,7 +2920,7 @@ label {
     border-bottom: 2px solid #fff;
     color: #fff;
 }
-.light-form .gfield textarea,
+.light-form .gfield textarea::placeholder,
 .light-form .gfield input[type=text]::placeholder {
   font-size: 19px;
 }
