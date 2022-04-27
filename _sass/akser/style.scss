@@ -179,6 +179,7 @@ strong {
     margin-left: .85em;
     margin-bottom: 13px;
     font-weight: 500;
+    font-size: 1.3em;
 }
 
 .expertise p {
@@ -1850,6 +1851,10 @@ Start Section founder
         width: 50%;
         background-size: cover;
         background-position: top;
+	
+	@media (min-width: $screen-sm-min) {
+           height: auto;
+        }
     }
 
     .box{
