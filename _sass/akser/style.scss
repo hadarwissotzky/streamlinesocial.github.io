@@ -110,6 +110,12 @@ strong {
     font-style: normal;
     display: inline-block;
 }
+.btn-primary {
+      margin-top: 11px;
+  background-color: #D3DA65;
+  border-color: #2e6da4;
+  color: #5a5b5d;
+}
 //.a-btn {
 //    margin-left: auto;
 //    margin-right: auto;
@@ -143,7 +149,13 @@ strong {
 .default-background{background-color: $primary-orange;}
 .default-background-hover:hover{background-color: $primary-orange !important;}
 
-
+.free-est{
+    display: block;
+    width: 28%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .sec-padding{
 	padding: 70px 0;
 	background-color: #f8f8f8;
@@ -265,7 +277,7 @@ Start div loading-overlay
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: $primary-orange;
+    background-color: #D3DA65;
     opacity: .5;
     animation: move 1.2s ease-in-out infinite;
 }
@@ -464,7 +476,7 @@ Start Section header
 .header .navbar-nav li a {
     padding: 30px 15px;
     color: $header-fg;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: $font-weight-nav-links;
 }
 .layout-header-dark .navbar-nav li a {
@@ -476,7 +488,7 @@ Start Section header
 } 
 
 .header .navbar-nav li.active a {
-    color: $primary-orange;
+    color: #D3DA65;
 }
 
 .header .navbar-toggle { 
@@ -509,7 +521,7 @@ Start Section header
 }
 
 .header.shrink .navbar-nav li.active a {
-     color: $primary-orange;
+     color: #D3DA65;
 }
 
 .header.shrink .navbar-toggle { 
@@ -756,7 +768,7 @@ start section video-container for video page
 }
 
 .video-container .overlay{
-    background-color: rgba(23, 31, 42, 0.3);
+    background-color: rgba(3, 77, 95, 0.3);
     color: #fff;
     display: flex;
     align-items: center;
@@ -801,7 +813,7 @@ start section video-container for video page
     margin: 0;
     font-size: 20px;
     font-weight: 300;
-    color: #009ee2;
+    color: #D3DA65;
     text-transform: uppercase;
     max-width: 900px;
 
@@ -837,6 +849,10 @@ start section video-container for video page
     @media (min-width: $screen-sm-min) {
         width: 60%;
     }
+}
+
+.video-container strong {
+  font-weight: 700;
 }
  
 .video-container .overlay .title .a-btn{
@@ -884,6 +900,15 @@ start section video-container for video page
     }
 }
 
+.video-container .overlay .scroll img {
+  width: 14%;
+}
+
+.video-container .overlay .scroll span
+{
+    font-size: 17px;
+    padding-left: 12px;
+}
 .video-container section {
     text-align: left;
 
@@ -1320,6 +1345,13 @@ max-width: 100%;
         padding-bottom: 10px;
     }
 }
+.footer-links {
+      margin-top: 5%;
+}
+.footer-link:hover{
+  color: #D3DA65;
+}
+
 /*----------------------------------------------------
 end about Section
 ----------------------------------------------------*/
@@ -1597,6 +1629,9 @@ font-size: 22px;
 .tech-icons div {
     height: 120px;
     text-align: center;
+}
+.team-section {
+  padding: 0 70px 20px 0 !important;
 }
 /*----------------------------------------------------
 start three-boxs Section
@@ -1979,7 +2014,9 @@ Start Section founder
     @extend %back-text-on-right;
 
 }
-
+.service-qa {
+  padding-bottom: 4%;
+}
 /*----------------------------------------------------
 end Section founder
 ----------------------------------------------------*/
@@ -2333,6 +2370,7 @@ start my-portfolio section
     min-width: 256px;
     padding: 24px 0 0px;
     z-index: 1;
+margin-bottom: 1%;
 }
 .ds-project__logo {
     margin-bottom: 40px;
@@ -2695,6 +2733,9 @@ end partners Section
 /*----------------------------------------------------
 start contact-me Section
 ----------------------------------------------------*/
+.contact-section {
+  font-size: 17px;
+}
 .contact {
     text-align: center;
 }
@@ -2808,6 +2849,12 @@ start contact-me Section
     background-color: transparent;
     padding: 0;
 }
+.contact-address {
+	text-align: left;
+}
+.our-work .item {
+	margin-left: 5%;
+}
 .gform_body {
     margin: 0 -15px;
 }
@@ -2878,6 +2925,10 @@ label {
     border-bottom: 2px solid #fff;
     color: #fff;
 }
+.light-form .gfield textarea::placeholder,
+.light-form .gfield input[type=text]::placeholder {
+  font-size: 19px;
+}
 .ginput_container_select {
     border-bottom: 2px #FFF solid;
     position: relative;
@@ -2891,6 +2942,7 @@ label {
     appearance: none;
     border: none;
     padding-left: 1px;
+    font-size: 19px;
 }
 .light-form_wrapper select option {
     color: #4280F1;
@@ -3375,7 +3427,7 @@ start single-blog section
 
 .our-work-header {
     padding: 1em 0;
-    background: $primary-orange;
+    background: #607822;
     color: #fff;
 }
 
@@ -3475,7 +3527,6 @@ margin-bottom: 16%;
     text-align: left;
 }
 .footer-address {
-    color: #7e7e7e;
     font-size: 12px;
     line-height: 12px;
     margin: 0;
@@ -3484,6 +3535,13 @@ margin-bottom: 16%;
 .footer-rights {
     float: right;
     margin-top: 4%;
+}
+.footer-section-container {
+  color: #ccc;
+}
+.social-link {
+  margin-top: 8%;
+    text-transform: uppercase;
 }
 /*********** start Industries  ************/
 .industries-content {
@@ -3558,6 +3616,7 @@ margin-bottom: 16%;
     padding-bottom: 48px;
     position: relative;
     text-align: center;
+	background-color: #BDCAD0;
 }
 
 .industries-card .card-header,
@@ -3593,7 +3652,7 @@ margin-bottom: 16%;
 }
 .industries-card .card-title:after {
     -webkit-transform: translateX(-50%);
-    background-color: #1990CE;
+    background-color: #0A4D5E;
     content: "";
     height: 2px;
     left: 50%;
@@ -3639,7 +3698,7 @@ margin-bottom: 16%;
     max-width: 100%;
 }
 #industries .services-image {
-    background: url(/assets/images/about-img.jpg);
+    background: url(/assets/images/Industries_Section.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
